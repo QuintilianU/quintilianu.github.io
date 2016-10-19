@@ -288,7 +288,9 @@
  .wsite-social, .wsite-editor .wsite-social { white-space: normal; }
  .wsite-social-item { font-size: 1.25em; margin: 5px; }
  #social .wsite-social-item:hover { color: #fff; }
- #footer { visibility:hidden; margin: 0 auto; padding: 0; background: #2e2e2e; color: #999999; }
+ /*#footer { visibility:hidden; margin: 0 auto; padding: 0; background: #2e2e2e; color: #999999; }*/
+ /* This vv is a copy of this ^^ without the visibility:hidden; */
+ #footer { margin: 0 auto; padding: 0; background: #2e2e2e; color: #999999; }
  #footer .wsite-footer { max-width: 1140px; overflow: hidden; margin: 0 auto; padding: 3.5em 2em; box-sizing: border-box; }
  #footer h2 { font-family: 'Montserrat'; font-size: 1.33em; font-weight: 700; margin: 0 auto .75em; }
  #footer .paragraph { margin: 0 !important; font-size: 0.9em !important; line-height: 1.5; }
